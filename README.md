@@ -46,3 +46,40 @@ A chatbot built using Streamlit, FastAPI, and Ollama LLaMA2.
 ## Screenshots
 
 ![Chat UI](screenshots/chat-ui.png)
+
+
+
+
+#HOW TO US EMY PROJECT ON UR MACHINE
+#FOLLOW THE STEPS BELOW
+
+
+⚙️ Setup & Installation
+1️⃣ Clone the repository
+git clone https://github.com/sainiyogra5/ollama-llama2-chatbot.git
+cd ollama-llama2-chatbot
+
+2️⃣ Create virtual environment
+python -m venv .venv
+.venv\Scripts\activate   # Windows
+
+3️⃣ Install dependencies
+pip install -r requirements.txt
+
+▶️ How to Run
+Start Ollama
+
+Make sure Ollama is installed and the LLaMA2 model is pulled:
+
+ollama pull llama2
+
+Start Backend (FastAPI)
+python app.py
+
+Start Frontend (Streamlit)
+streamlit run ui.py
+
+
+Open browser at:
+
+http://localhost:8501
